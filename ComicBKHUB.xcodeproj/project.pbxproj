@@ -45,6 +45,12 @@
 		18CCD70B22D21734004A28F6 = {
 			isa = PBXGroup;
 			children = (
+				18CCD71722D21734004A28F6 /* AppDelegate.swift */,
+				18CCD71922D21734004A28F6 /* ViewController.swift */,
+				18CCD71B22D21734004A28F6 /* Main.storyboard */,
+				18CCD71E22D21736004A28F6 /* Assets.xcassets */,
+				18CCD72022D21736004A28F6 /* LaunchScreen.storyboard */,
+				18CCD72322D21736004A28F6 /* Info.plist */,
 				18CCD71622D21734004A28F6 /* Service */,
 				18CCD71522D21734004A28F6 /* Products */,
 				F6900244C533E9089DB66B89 /* Pods */,
@@ -64,22 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				18F9940422D3643D0076C874 /* ComicAPIManager.swift */,
-				18F9940322D3640C0076C874 /* New Group */,
-				18CCD71722D21734004A28F6 /* AppDelegate.swift */,
-				18CCD71922D21734004A28F6 /* ViewController.swift */,
-				18CCD71B22D21734004A28F6 /* Main.storyboard */,
-				18CCD71E22D21736004A28F6 /* Assets.xcassets */,
-				18CCD72022D21736004A28F6 /* LaunchScreen.storyboard */,
-				18CCD72322D21736004A28F6 /* Info.plist */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		18F9940322D3640C0076C874 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		75242A605E2EFCA0015F997F /* Frameworks */ = {
