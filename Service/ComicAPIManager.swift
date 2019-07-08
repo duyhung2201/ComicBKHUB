@@ -37,7 +37,7 @@ class ComicApiManage: NSObject {
                         }
                     } else {
                         let json = JSON(data!)
-                        let data = DetailModel(json: json)
+//                        let data = DetailModel(json: json)
                         DispatchQueue.main.async {
                             completion(true, data)
                         }

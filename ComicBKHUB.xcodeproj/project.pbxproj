@@ -24,9 +24,9 @@
 		18CCD71C22D21734004A28F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18CCD71E22D21736004A28F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CCD72122D21736004A28F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18CCD72322D21736004A28F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F9940422D3643D0076C874 /* ComicAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicAPIManager.swift; sourceTree = "<group>"; };
 		4C2EF1F10EE0A23084BB6208 /* Pods-ComicBKHUB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComicBKHUB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComicBKHUB/Pods-ComicBKHUB.debug.xcconfig"; sourceTree = "<group>"; };
+		6410BC3522D3790200E5830C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C164BB823EE92ED3168230C2 /* Pods_ComicBKHUB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComicBKHUB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -49,8 +49,9 @@
 				18CCD71922D21734004A28F6 /* ViewController.swift */,
 				18CCD71B22D21734004A28F6 /* Main.storyboard */,
 				18CCD71E22D21736004A28F6 /* Assets.xcassets */,
+				6410BC3522D3790200E5830C /* Info.plist */,
+				6410BC3422D3790200E5830C /* ComicBKHUB */,
 				18CCD72022D21736004A28F6 /* LaunchScreen.storyboard */,
-				18CCD72322D21736004A28F6 /* Info.plist */,
 				18CCD71622D21734004A28F6 /* Service */,
 				18CCD71522D21734004A28F6 /* Products */,
 				F6900244C533E9089DB66B89 /* Pods */,
@@ -72,6 +73,13 @@
 				18F9940422D3643D0076C874 /* ComicAPIManager.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		6410BC3422D3790200E5830C /* ComicBKHUB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ComicBKHUB;
 			sourceTree = "<group>";
 		};
 		75242A605E2EFCA0015F997F /* Frameworks */ = {
@@ -363,7 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ComicBKHUB/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,7 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ComicBKHUB/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
