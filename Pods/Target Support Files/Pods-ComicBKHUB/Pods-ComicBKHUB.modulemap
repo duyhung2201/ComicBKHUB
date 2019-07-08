@@ -1,0 +1,6 @@
+framework module Pods_ComicBKHUB {
+  umbrella header "Pods-ComicBKHUB-umbrella.h"
+
+  export *
+  module * { export * }
+}
